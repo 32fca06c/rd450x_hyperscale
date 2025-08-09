@@ -1,7 +1,7 @@
 Оглавление
 
-    Уведомление о товарных знаках и авторских правах
-    Информация по безопасности (Safety Information)
+    Уведомление о товарных знаках и авторских правах  
+    Информация по безопасности (Safety Information)  
 
 # Глава 1: Введение в продукт
 
@@ -434,10 +434,7 @@ I. Меню Network Stack Configuration
 | ---------------- | ------------------ | ---------------------------- |
 | Network Stack    | Enabled/[Disabled] | Активация UEFI Network Stack |
 | Ipv4 PXE Support | [Enabled]/Disabled | Поддержка IPv4 PXE           |
-
-IPv6 PXE Support
-
-| [Enabled]/Disabled | Поддержка IPv6 PXE
+| IPv6 PXE Support | [Enabled]/Disabled | Поддержка IPv6 PXE           |
 
 J. Подменю USB Configuration
 
@@ -755,3 +752,4 @@ CSM Configuration (Подменю)
 | TCP/IP | Transmission Control Protocol/Internet Protocol   | Стек протоколов TCP/IP                                         |
 | UPS    | Uninterrupted Power Supply                        | Источник бесперебойного питания (ИБП)                          |
 | USB    | Universal Serial Bus                              | Универсальная последовательная шина                            |
+
