@@ -143,23 +143,37 @@
 | 43   | Гнездо процессора CPU2                              |
 | 44   | Слоты памяти (DIMM)                                 |
 
-        3.2 Установка и конфигурация модулей памяти (DIMM)
+## 3.2 Установка и конфигурация модулей памяти (DIMM)
 
-|     |     |     | CPU1 |     |     |     |     |     |     |     | CPU2 |     |     |     |     |     |     |     |
-| --- | --- | --- | ---- | --- | --- | --- | --- | --- | --- | --- | ---- | --- | --- | --- | --- | --- | --- | --- |
-|     |     |     | A0   | A1  | B0  | B1  | C0  | C1  | D0  | D1  | A0   | A1  | B0  | B1  | C0  | C1  | D0  | D1  |
-|     | 1   | X   |      |     |     |     |     |     |     |     |      |     |     |     |     |     |     |     |
-|     | 2   | X   |      | X   |     |     |     |     |     |     |      |     |     |     |     |     |     |     |
-|     | 3   | X   |      | X   |     | X   |     |     |     |     |      |     |     |     |     |     |     |     |
-|     | 4   | X   |      | X   |     | X   |     | X   |     |     |      |     |     |     |     |     |     |     |
-|     | 5   | X   |      | X   |     | X   |     | X   |     |     |      |     |     |     |     |     |     |     |
-|     | 8   | X   | X    | X   | X   | X   | X   | X   | X   |     |      |     |     |     |     |     |     |     |
-|     | 2   | X   |      |     |     |     |     |     |     | X   |      |     |     |     |     |     |     |     |
-|     | 4   | X   |      | X   |     |     |     |     |     | X   |      | X   |     |     |     |     |     |     |
-|     | 8   | X   |      | X   |     | X   |     | X   |     | X   |      | X   |     | X   |     | X   |     |     |
-|     | 10  | X   | X    | X   |     | X   |     | X   |     | X   | X    | X   |     | X   |     | X   |     |     |
-|     | 12  | X   | X    | X   | X   | X   |     | X   |     | X   | X    | X   | X   | X   |     | X   |     |     |
-|     | 16  | X   | X    | X   | X   | X   | X   | X   | X   | X   | X    | X   | X   | X   | X   | X   | X   |     |
+<table>
+  <thead>
+    <tr>
+      <th rowspan="2">CPU</th>
+      <th rowspan="2">Slot</th>
+      <th colspan="8">CPU1</th>
+      <th colspan="8">CPU2</th>
+    </tr>
+    <tr>
+      <th>A0</th><th>A1</th><th>B0</th><th>B1</th><th>C0</th><th>C1</th><th>D0</th><th>D1</th>
+      <th>A0</th><th>A1</th><th>B0</th><th>B1</th><th>C0</th><th>C1</th><th>D0</th><th>D1</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>1</td><td>X</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+    <tr><td>1</td><td>2</td><td>X</td><td></td><td>X</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+    <tr><td>1</td><td>3</td><td>X</td><td></td><td>X</td><td></td><td>X</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+    <tr><td>1</td><td>4</td><td>X</td><td></td><td>X</td><td></td><td>X</td><td></td><td>X</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+    <tr><td>1</td><td>5</td><td>X</td><td></td><td>X</td><td></td><td>X</td><td></td><td>X</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+    <tr><td>1</td><td>8</td><td>X</td><td>X</td><td>X</td><td>X</td><td>X</td><td>X</td><td>X</td><td>X</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+    <tr><td>2</td><td>2</td><td>X</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>X</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+    <tr><td>2</td><td>4</td><td>X</td><td></td><td>X</td><td></td><td></td><td></td><td></td><td></td><td>X</td><td></td><td>X</td><td></td><td></td><td></td><td></td><td></td></tr>
+    <tr><td>2</td><td>8</td><td>X</td><td></td><td>X</td><td></td><td>X</td><td></td><td>X</td><td></td><td>X</td><td></td><td>X</td><td></td><td>X</td><td></td><td>X</td><td></td></tr>
+    <tr><td>2</td><td>10</td><td>X</td><td>X</td><td>X</td><td></td><td>X</td><td></td><td>X</td><td></td><td>X</td><td>X</td><td>X</td><td></td><td>X</td><td></td><td>X</td><td></td></tr>
+    <tr><td>2</td><td>12</td><td>X</td><td>X</td><td>X</td><td>X</td><td>X</td><td></td><td>X</td><td></td><td>X</td><td>X</td><td>X</td><td>X</td><td>X</td><td></td><td>X</td><td></td></tr>
+    <tr><td>2</td><td>16</td><td>X</td><td>X</td><td>X</td><td>X</td><td>X</td><td>X</td><td>X</td><td>X</td><td>X</td><td>X</td><td>X</td><td>X</td><td>X</td><td>X</td><td>X</td><td>X</td></tr>
+  </tbody>
+</table>
+
 
 ## 3.3 Настройка перемычек
 
@@ -749,6 +763,7 @@ CSM Configuration (Подменю)
 | TCP/IP | Transmission Control Protocol/Internet Protocol   | Стек протоколов TCP/IP                                         |
 | UPS    | Uninterrupted Power Supply                        | Источник бесперебойного питания (ИБП)                          |
 | USB    | Universal Serial Bus                              | Универсальная последовательная шина                            |
+
 
 
 
