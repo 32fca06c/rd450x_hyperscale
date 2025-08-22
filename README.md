@@ -1,1 +1,2 @@
-Собираю информацию по этому говну, что бы при сборке не возникли сюрпризы
+![overclockers](https://overclockers.ru/assets/logo.png)
+# Lenovo RD450X Hyperscale
