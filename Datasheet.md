@@ -95,7 +95,7 @@
 Перед выполнением любых операций настройки обязательно внимательно ознакомьтесь с предупреждениями и мерами предосторожности в разделе "Безопасность" руководства «Lenovo Server Help Manual - Обязательно к прочтению перед включением» и строго соблюдайте указанные требования.
 
 ## 3.1 Компоненты материнской платы платы
-
+![scheme](https://raw.githubusercontent.com/32fca06c/rd450x_hyperscale/refs/heads/main/.images/04b92a8a-632c-4624-94be-bc62b9b8696b.svg)
 | №   |                                         |
 | --- | --------------------------------------- |
 | 1   | Разъем питания CPU2                     |
@@ -764,6 +764,7 @@ CSM Configuration (Подменю)
 | TCP/IP | Transmission Control Protocol/Internet Protocol   | Стек протоколов TCP/IP                                         |
 | UPS    | Uninterrupted Power Supply                        | Источник бесперебойного питания (ИБП)                          |
 | USB    | Universal Serial Bus                              | Универсальная последовательная шина                            |
+
 
 
 
