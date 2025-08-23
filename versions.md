@@ -1,8 +1,9 @@
 ## BMC
-| Version   |
-| --------- |
-| 2.21.1095 |
-| 2.17.1086 |
+| Version   | URL                                                                       |
+| --------- | ------------------------------------------------------------------------- |
+| 2.21.1095 | https://download.lenovo.com/servers/BMC_RD450X_Tencent_V2.21.1095_SVT.rar |
+| 2.17.1086 | https://download.lenovo.com/servers/BMC_RD450X_Tencent_V2.17.1086_SVT.rar |
+
 
 ## BIOS
 | Major | Minor |
