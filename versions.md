@@ -23,7 +23,7 @@
 | Version | URI                                                      |
 | ------- | -------------------------------------------------------- |
 | 1.11.03 | https://www.aspeedtech.com/file/support/v11103_vbios.zip |
-| 1.10    | https://www.aspeedtech.com/file/support/v11001_vbios.zip |
+| 1.10.01 | https://www.aspeedtech.com/file/support/v11001_vbios.zip |
 | 1.01.05 |                                                          |
 
 ### Microcodes
