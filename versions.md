@@ -41,6 +41,7 @@
 | 1.11.03 | https://www.aspeedtech.com/file/support/v11103_vbios.zip |
 | 1.10.01 | https://www.aspeedtech.com/file/support/v11001_vbios.zip |
 | 1.01.05 |                                                          |
+| 0.99.10 |                                                          |
 
 ### Microcodes
 | CPUID | Platform | Revision |
