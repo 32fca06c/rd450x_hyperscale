@@ -1,10 +1,14 @@
-
-# BMC
-## Username set
+## Linux (e.g. Fedora 43)
+### Make a bios backup (WIP)
 ```
-KCS 18 45 02 6C 65 6E 6F 76 6F 31 00 00 00 00 00 00 00 00 00
+sudo dnf install flashrom -y
+sudo flashrom -p internal -c "MX25L12835F/MX25L12873F" -r "~/rd450x_$(date +%Y%m%d).bin"
 ```
-## Password set
+### Fiano UTK Tool
 ```
-KCS 18 47 82 02 4C 65 6E 6F 76 6F 31 32 33 00 00 00 00 00 00 00 00 00 00 00
+sudo dnf install golang -y
+echo 'GOPATH=/usr/local/go' | sudo tee -a /etc/environment
+source /etc/environment
+sudo go install github.com/linuxboot/fiano/cmds/utk@latest
+sudo ln -s /usr/local/go/bin/utk /usr/local/bin/utk
 ```
