@@ -13,3 +13,8 @@ source /etc/environment
 sudo go install github.com/linuxboot/fiano/cmds/utk@latest
 sudo ln -s /usr/local/go/bin/utk /usr/local/bin/utk
 ```
+
+### 
+```
+sudo dnf install ipmitool -y
+```
