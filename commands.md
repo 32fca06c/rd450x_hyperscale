@@ -14,7 +14,9 @@ sudo go install github.com/linuxboot/fiano/cmds/utk@latest
 sudo ln -s /usr/local/go/bin/utk /usr/local/bin/utk
 ```
 
-### 
+### Make a BMC backup (WIP)
 ```
 sudo dnf install ipmitool -y
+sudo ipmitool fru read 0 fru_backup.bin
+sudo ipmitool sdr dump sdr_config.bin
 ```
