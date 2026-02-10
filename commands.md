@@ -2,9 +2,9 @@
 ### Make a bios backup (WIP)
 ```
 sudo dnf install flashrom -y
-sudo flashrom -p internal --ifd -c "MX25L12835F/MX25L12873F" -r "~/rd450x_$(date +%Y%m%d).bin"
-
+sudo flashrom -p internal --ifd -c "MX25L12835F/MX25L12873F" -r "rd450x_$(date +%Y%m%d).bin"
 ```
+
 ### Fiano UTK Tool
 ```
 sudo dnf install golang -y
