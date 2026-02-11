@@ -3,7 +3,7 @@
 ```
 sudo dnf install flashrom -y
 #sudo flashrom -p internal --ifd -c "MX25L12835F/MX25L12873F" -r "rd450x_$(date +%Y-%m-%d).bin"
-sudo flashrom -p internal --ifd -c "MX25L12835F/MX25L12873F" --ifd -i bios -r "rd450x_$(date +%Y-%m-%d).bin"
+sudo flashrom -p internal -c "MX25L12835F/MX25L12873F" --ifd -i fd -i bios -r "rd450x_$(date +%Y-%m-%d).bin"
 ```
 
 ### Fiano UTK Tool
